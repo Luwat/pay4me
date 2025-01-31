@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import DownloadButton from "../DownloadButton"
 
-export function NavBar() {
+const NavBar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-sm px-4 py-3 rounded-full mx-4 mt-4">
       <div className="container mx-auto flex items-center justify-between">
@@ -31,3 +31,4 @@ export function NavBar() {
   )
 }
 
+export default NavBar;

@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
-export function HeroSection() {
+const HeroSection = () => {
   return (
     <div className="pt-32 pb-16 relative overflow-hidden">
       <div className="container mx-auto px-4">
@@ -180,3 +180,4 @@ export function HeroSection() {
   )
 }
 
+export default HeroSection;

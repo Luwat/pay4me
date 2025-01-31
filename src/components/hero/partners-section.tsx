@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export function PartnersSection() {
+const PartnersSection = () => {
   const partners = [
     { name: "Across The Horizon", logo: "/placeholder.svg" },
     { name: "MPower Financing", logo: "/placeholder.svg" },
@@ -26,3 +26,4 @@ export function PartnersSection() {
   )
 }
 
+export default PartnersSection;
