@@ -1,12 +1,14 @@
-import React from 'react'
-import NavBar from './NavBar'
+import { NavBar } from "./nav-bar"
+import { HeroSection } from "./hero-section"
+import { PartnersSection } from "./partners-section"
 
-const Hero = () => {
+export default function Home() {
   return (
-    <section className='w-full h-[1782px]'>
-        <NavBar />
-    </section>
+    <main className="min-h-screen">
+      <NavBar />
+      <HeroSection />
+      <PartnersSection />
+    </main>
   )
 }
 
-export default Hero
