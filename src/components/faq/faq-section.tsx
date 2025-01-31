@@ -38,7 +38,7 @@ const FAQSection = () => {
             <h2 className="text-4xl font-semibold mb-4">Got Questions?</h2>
             <p className="text-xl text-gray-600 mb-8">We&apos;ve got answers</p>
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FAQs-3CUfudsaIq8QE2YMNfZ24jX7Y4tzl0.png"
+              src=""
               alt="Student using phone"
               width={500}
               height={600}

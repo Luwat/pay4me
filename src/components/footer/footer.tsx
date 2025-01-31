@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Logo and Social Section */}
           <div className="md:col-span-3">
             <div className="flex items-center gap-2 mb-6">
-              <Image src="/placeholder.svg" alt="Pay4Me App" width={32} height={32} className="w-8 h-8" />
+              <Image src="" alt="Pay4Me App" width={32} height={32} className="w-8 h-8" />
               <span className="font-semibold text-xl">Pay4Me App</span>
             </div>
 
@@ -110,11 +110,11 @@ const Footer = () => {
             </p>
             <div className="flex flex-col gap-3">
               <Button variant="outline" className="w-full justify-start gap-2">
-                <Image src="/placeholder.svg" alt="App Store" width={20} height={20} className="w-5 h-5" />
+                <Image src="" alt="App Store" width={20} height={20} className="w-5 h-5" />
                 Download on Appstore
               </Button>
               <Button variant="outline" className="w-full justify-start gap-2">
-                <Image src="/placeholder.svg" alt="Play Store" width={20} height={20} className="w-5 h-5" />
+                <Image src="" alt="Play Store" width={20} height={20} className="w-5 h-5" />
                 Download on Playstore
               </Button>
             </div>

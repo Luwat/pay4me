@@ -2,12 +2,12 @@ import Image from "next/image"
 
 const PartnersSection = () => {
   const partners = [
-    { name: "Across The Horizon", logo: "/placeholder.svg" },
-    { name: "MPower Financing", logo: "/placeholder.svg" },
-    { name: "Prodigy Finance", logo: "/placeholder.svg" },
-    { name: "Techstars", logo: "/placeholder.svg" },
-    { name: "Stripe", logo: "/placeholder.svg" },
-    { name: "Paystack", logo: "/placeholder.svg" },
+    { name: "Across The Horizon", logo: "" },
+    { name: "MPower Financing", logo: "" },
+    { name: "Prodigy Finance", logo: "" },
+    { name: "Techstars", logo: "" },
+    { name: "Stripe", logo: "" },
+    { name: "Paystack", logo: "" },
   ]
 
   return (

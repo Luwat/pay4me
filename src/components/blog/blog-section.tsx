@@ -7,17 +7,17 @@ import { Button } from "@/components/ui/button"
 const blogPosts = [
   {
     title: "How to Navigate International Payments for Education With Ease",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Blog-TewPu1e0pViek3nlOhUiY2FCZsvQku.png",
+    image: "",
     link: "#",
   },
   {
     title: "Importance of getting Insurance before traveling",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Blog-TewPu1e0pViek3nlOhUiY2FCZsvQku.png",
+    image: "",
     link: "#",
   },
   {
     title: "Overcoming Challenges in Foreign Currency Tuition Payments",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Blog-TewPu1e0pViek3nlOhUiY2FCZsvQku.png",
+    image: "",
     link: "#",
   },
 ]
@@ -39,7 +39,7 @@ const BlogSection = () => {
               <div key={index} className="group">
                 <div className="relative mb-6 overflow-hidden rounded-2xl">
                   <Image
-                    src={post.image || "/placeholder.svg"}
+                    src={post.image || "/#"}
                     alt={post.title}
                     width={400}
                     height={300}

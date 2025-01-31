@@ -18,7 +18,7 @@ const OfferSection = () => {
           {/* Tuition Card */}
           <div className="bg-[#fff9e6] text-black rounded-3xl p-8">
             <div className="mb-6">
-              <Image src="/placeholder.svg" alt="Lightning icon" width={48} height={48} className="text-yellow-500" />
+              <Image src="" alt="Lightning icon" width={48} height={48} className="text-yellow-500" />
             </div>
             <h3 className="text-2xl font-semibold mb-4">Super fast tuition and school fees payments</h3>
             <p className="text-gray-600 mb-8">
@@ -29,7 +29,7 @@ const OfferSection = () => {
               {["Stanford", "Ghana", "BYU", "Other"].map((uni) => (
                 <Image
                   key={uni}
-                  src="/placeholder.svg"
+                  src=""
                   alt={`${uni} logo`}
                   width={120}
                   height={60}

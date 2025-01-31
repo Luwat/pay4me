@@ -4,7 +4,7 @@ const VideoSection = () => {
   return (
     <section className="bg-gray-100 py-16 px-4 relative overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Video%20demo-YziwBLL1hOX0g0oi8rkalJolYOjwC7.png')] bg-cover bg-center opacity-50" />
+        <div className="absolute inset-0 bg-[url('')] bg-cover bg-center opacity-50" />
         <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent" />
       </div>
 

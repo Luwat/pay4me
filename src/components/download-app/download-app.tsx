@@ -29,7 +29,7 @@ const DownloadApp = () => {
 
         <div className="flex justify-center">
           <div className="bg-white p-8 rounded-3xl shadow-lg">
-            <Image src="/placeholder.svg" alt="QR Code" width={300} height={300} className="w-full max-w-[300px]" />
+            <Image src="" alt="QR Code" width={300} height={300} className="w-full max-w-[300px]" />
           </div>
         </div>
       </div>

@@ -9,22 +9,22 @@ const testimonials = [
   {
     name: "Jimmy Adewale",
     role: "Entrepreneur",
-    image: "/placeholder.svg",
+    image: "",
   },
   {
     name: "Palmer Nicole",
     role: "Phd Student",
-    image: "/placeholder.svg",
+    image: "",
   },
   {
     name: "Hannah Adams",
     role: "Senior Therapist",
-    image: "/placeholder.svg",
+    image: "",
   },
   {
     name: "Lex Brown",
     role: "Masters Student",
-    image: "/placeholder.svg",
+    image: "",
   },
 ]
 
@@ -42,7 +42,7 @@ const TestimonialsSection = () => {
   return (
     <section className="py-16 px-4 relative overflow-hidden">
       <div className="absolute top-0 right-0">
-        <Image src="/placeholder.svg" alt="Decorative shape" width={400} height={400} className="opacity-20" />
+        <Image src="" alt="Decorative shape" width={400} height={400} className="opacity-20" />
       </div>
 
       <div className="max-w-7xl mx-auto">
@@ -64,7 +64,7 @@ const TestimonialsSection = () => {
             {testimonials.map((testimonial, index) => (
               <div key={index} className="min-w-[300px] md:min-w-[400px] bg-white rounded-3xl p-6 shadow-sm">
                 <Image
-                  src={testimonial.image || "/placeholder.svg"}
+                  src={testimonial.image}
                   alt={testimonial.name}
                   width={400}
                   height={300}

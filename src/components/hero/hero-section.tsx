@@ -104,7 +104,7 @@ const HeroSection = () => {
 
         <div className="relative max-w-4xl mx-auto">
           <div className="absolute -left-16 top-1/4 bg-white rounded-xl shadow-lg p-3 flex items-center gap-2">
-            <Image src="/placeholder.svg" alt="Techstars" width={32} height={32} className="rounded" />
+            <Image src="" alt="Techstars" width={32} height={32} className="rounded" />
             <div className="text-sm">
               <p className="font-medium">Backed by</p>
               <p>Techstars</p>
@@ -113,7 +113,7 @@ const HeroSection = () => {
 
           <div className="absolute -right-8 top-1/3 bg-white rounded-xl shadow-lg p-4">
             <div className="flex items-center gap-2 mb-2">
-              <Image src="/placeholder.svg" alt="Google" width={20} height={20} />
+              <Image src="" alt="Google" width={20} height={20} />
               <div className="flex text-yellow-400">{"★★★★★"}</div>
             </div>
             <p className="text-sm">5 star Google rating</p>

@@ -25,7 +25,7 @@ const steps = [
     number: "4",
     title: "Complete Your Payment",
     description: "Choose your preferred payment method and finalize the transaction securely.",
-    image: "/placeholder.svg",
+    image: "",
   },
 ]
 
@@ -46,7 +46,7 @@ const StepsSection = () => {
               <h3 className="text-xl font-semibold mb-4">{step.title}</h3>
               <p className="text-gray-600 mb-8">{step.description}</p>
               <Image
-                src={step.image || "/placeholder.svg"}
+                src={step.image}
                 alt={step.title}
                 width={200}
                 height={200}
